@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100:200;');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+  body
+  {
+    background-color: #333;
+
+  }
+ .container
+  {
+    width:90%;
+    margin:75px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+  }
+
+
+  
+  .titles h3
+  {
+    text-align:center;
+    margin: 50px 0;
+    color: rgb(5, 5, 22);
+    text-transform: uppercase;
+  }
+
+  .titles h4
+  {
+    text-align:center;
+    margin: 50px 0;
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+  .card
+  {
+    background-color: #333;
+    box-shadow: 0px 4px 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover
+   {
+    transform: scale(1.05);
+  }
+
+  .image-section
+  {
+    min-height: 180px;
+    width:auto;
+  }
+  .card .img-1
+  {
+    background-image: url("../IMG_1336.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card .img-2
+  {
+    background-image: url("../IMG_1340.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card .img-3
+  {
+    background-image: url("../IMG_1334.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card .img-4
+  {
+    background-image: url("../IMG_1333.JPG");
+    background-size: cover;
+    background-position: center;
+  }
+  .card .img-5
+  {
+    background-image: url("../IMG_1335.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .content
+  {
+    text-align: center;
+    padding:20px 15px;
+  }
+  .title h2
+  {
+    letter-spacing: 2px ;
+    color:#c9c9c9;
+  }
+  .content h3
+  {
+    letter-spacing: 2px ;
+    color:#c9c9c9;
+  }
+  .breaker h2
+  {
+    letter-spacing: 2px ;
+    color:#c9c9c9;
+
+  }
+  
+  .content p
+  {
+    font-size: 16px;
+    color:#7a7a7a;
+    margin: 15px 0px;
+
+  }
+  .content a
+  {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #222;
+    letter-spacing: 2px;
+    display:L inline-block;
+    background-color: #d6c954;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .content a:hover{
+    background-color: #87803d;
+    transition: 1s ease;
+  }
+  
